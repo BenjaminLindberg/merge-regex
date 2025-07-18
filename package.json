@@ -1,0 +1,30 @@
+{
+  "name": "merge-regex",
+  "version": "1.0.1",
+  "description": "A utility to merge regex into one single expression",
+  "main": "./dist/index.js",
+  "author": {
+    "name": "Benjamin Lindberg"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^5.8.3"
+  },
+  "files": [
+    "./dist/*"
+  ],
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json src/**/*.ts",
+    "prepublish": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.14",
+    "jest": "^30.0.4",
+    "ts-jest": "^29.4.0"
+  }
+}
