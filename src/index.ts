@@ -1,4 +1,4 @@
-interface MergeRegexOptions {
+export interface MergeRegexOptions {
   preserveAnchors?: boolean;
   mergeAnchors?: boolean;
   deduplicate?: boolean;
