@@ -1,6 +1,6 @@
 {
   "name": "merge-regex",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A utility to merge regex into one single expression",
   "main": "./dist/index.js",
   "author": {
